@@ -1,0 +1,44 @@
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+	height: 39px;
+	line-height: 39px;
+	font: inherit;
+	display: inline-block;
+	border: none;
+	border: 1px solid #aaaaaa;
+	font-size: 17px;
+	padding: 0 27px;
+	width: 298px;
+}
+select {
+	padding: 0;
+}
+label.placeholder {
+	position: absolute;
+	display: block;
+	height: 37px;
+	line-height: 37px;
+	padding: 0 0 0 27px !important;
+	cursor: text;
+	z-index: 1;
+	margin: 0 !important;
+	float: none !important;
+	width: auto !important;
+	text-align: left !important;
+	font-size: 17px;
+	color: #aaaaaa;
+}
+::-webkit-input-placeholder  {
+	color: #aaaaaa;
+}
+:-moz-placeholder {
+	color: #aaaaaa;
+}
+::-moz-placeholder {
+	color: #aaaaaa;
+}
+:-ms-input-placeholder {
+	color: #aaaaaa;
+}
